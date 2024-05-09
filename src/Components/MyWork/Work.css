@@ -1,0 +1,58 @@
+.project {
+    width: 100%;
+    height: calc(100vh-100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.project a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.project img {
+    width: 700px;
+    border-radius: 10px;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.project p {
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+.project-banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.back {
+    height: 50px;
+    width: 80px;
+    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+
+.back:hover {
+    transform: scale(1.05);
+    transition: 0.3s
+}
